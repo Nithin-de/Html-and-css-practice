@@ -1,0 +1,290 @@
+.subscribe {
+    background-color: rgb(219, 0, 0);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+}
+
+.subscribe:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe:active {
+    opacity: 0.5;
+}
+
+.join {
+    background-color: white;
+    border: solid blue;
+    color: blue;
+    border-width: 1px;
+    height: 35px;
+    width: 63px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s,
+        color 0.15s;
+
+}
+
+.join:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.join:active {
+    opacity: 0.5;
+}
+
+.tweet {
+    background-color: rgb(76, 127, 245);
+    border: none;
+    height: 35px;
+    width: 70px;
+    color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+
+}
+
+.tweet:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet:active {
+    opacity: 0.5;
+}
+
+.uber {
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 125px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.uber:hover {
+    opacity: 0.7;
+    box-shadow: 5px 5px 10px rgba(163, 49, 49, 0.15);
+}
+
+.uber:active {
+    opacity: 0.5;
+}
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 35px;
+    width: 155px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.amazon:hover {
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+    opacity: 0.8;
+}
+
+.amazon:active {
+    opacity: 0.5;
+}
+
+.github {
+    background-color: rgb(46, 164, 79);
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.github:hover {
+    opacity: 0.9;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.github:active {
+    opacity: 0.5;
+}
+
+.bootstrap-started {
+    background-color: rgb(121, 82, 179);
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bootstrap-started:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-started:active {
+    opacity: 0.5;
+}
+
+.bootstrap-download {
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bootstrap-download:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-download:active {
+    opacity: 0.5;
+}
+
+.linkedin-apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    border-radius: 18px;
+    width: 220px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.linkedin-apply:hover {
+    opacity: 0.9;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+
+.linkedin-apply:active {
+    opacity: 0.5;
+}
+
+.linkedin-save {
+    background-color: white;
+    height: 35px;
+    width: 80px;
+    border: 2px solid rgb(10, 102, 194);
+    font-weight: bold;
+    color: rgb(10, 102, 194);
+    border-radius: 18px;
+    font-size: 15px;
+}
+
+.linkedin-save:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.linkedin-save:active {
+    opacity: 0.5;
+}
+
+a {
+    color: rgb(0, 113, 133);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: red;
+}
+
+.nike {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.stock {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.free {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.buy {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 35px;
+    width: 155px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buy:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    opacity: 0.8;
+}
+
+.buy:active {
+    opacity: 0.5;
+}
+
+.apple {
+    background-color: red;
+    width: 600px;
+    ;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shop {
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.shop:hover {
+    text-decoration: underline;
+
+}
