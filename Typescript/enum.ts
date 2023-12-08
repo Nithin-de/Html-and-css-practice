@@ -2,7 +2,7 @@
 enum Direction{
     up,down,left,right,
 }
-
+// by default up=0,down=1,left=2,right=3
 let playerdirection: Direction = Direction.down;
 
 // enum with assigned values
